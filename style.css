@@ -1,0 +1,43 @@
+.block {
+	user-select: none;
+    border:1px solid;
+    cursor: pointer;
+    position: absolute;
+	display: block;
+    width: 64px;
+    height: 64px;
+    padding: none;
+    outline: none;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 64px;
+	font-size: 32px;
+	font-weight: bold;
+    margin: 0px;
+
+    transition: all 0.1s;
+    transition-property: border-color, background-color;
+}
+
+.block-off {
+    background-color: #d9d9d9;
+    border-color: #cccccc;
+}
+
+.block-off:hover {
+    background-color: #e6e6e6;
+}
+
+.block-on {
+    background-color: #ffcc80;
+    border-color: #ffb84d;
+}
+
+.block-on:hover {
+    background-color: #ffd699;
+}
+
+.block-disabled {
+    background-color: #bfbfbf;
+    border-color: #a6a6a6;
+}
